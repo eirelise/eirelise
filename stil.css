@@ -23,6 +23,12 @@ aside {
     text-align: center;
     padding: 10px 0;
 }
-title {
-
+div.container {
+    display: flex;
+    justify-content: center;
+   
+    height: calc(100% - 120px); /* Subtract header height */
+    padding: 20px;
+    box-sizing: content-box;
+    color: #ffffff;
 }
