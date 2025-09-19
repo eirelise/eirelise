@@ -1,12 +1,36 @@
 
 html, body {
-    background-image: url('pictures/background.jpg'); background-repeat: no-repeat; background-size: cover;
+    background-image: url('pictures/background.jpg'); background-size: cover;
     height: 100%;
     margin: 0;
-    padding: 0;
+}
+.grid-container {
+    display: grid;                  
+   
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 2000px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-style: dashed;
 }
 
-.container {
+header, footer {
+    text-align: center;              
+    padding: 10px;                  
+    background-color: #000000;      
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    height: 120px;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+}
+/* .container {
     background-color: #000000;
     color: rgb(0, 0, 0,);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -15,8 +39,6 @@ html, body {
     height: 120px;
     justify-content:center;
     align-items: center;
-    position: absolute;
-   top: 0%;
     display: flex;
 }
 
@@ -25,7 +47,7 @@ div.container {
     justify-content: center;
     position: relative; 
     top: 20px;
-    height: 100px, 140px; /* Subtract header height */
+    height: 100px, 140px; /* Subtract header height
     padding: 20px;
     box-sizing: content-box;
     color: #ffffff;
@@ -33,4 +55,12 @@ div.container {
 .container > div.header {
   grid-area: header;
   text-align: center;
-}
+      color: rgb(0, 0, 0,);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: #ffffff;
+    height: 120px;
+    justify-content:center;
+    align-items: center;
+    display: grid;
+} */
