@@ -1,13 +1,19 @@
 body {
+    
     background-image: url('pictures/background.jpg'); background-repeat: no-repeat; background-size: cover;
     height: 100%;
     margin: 0;
 }
+a {
+    text-decoration: none;
+    color: inherit;}
 .container {
     display: grid;
     grid-template-columns: 850px 510px;
     grid-template-rows: 510px 300px;
-    
+    gap: 56px;
+    margin: 56px;
+
     
     grid-template-areas:
         "item-1 item-2"
@@ -23,12 +29,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
 }
-
 main {
     background-color: rgb(0, 0, 0, 0.8);
     height: 850px;
-    margin: 56px;
-    gap: 56px;
     min-width: 300px;
     color: #ffffff;
     display: flex;
@@ -37,14 +40,82 @@ main {
 
 }
 .item-1 {
-    background-color: rgb(255, 90, 211);
+    border: rgb(0, 0, 0) 10px;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 40px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    background-image: url('pictures/Tongariro.jpg'); background-repeat: no-repeat; background-size: cover;
+    cursor: pointer;
+    transition: 0.5s;
 }
 .item-2 {
+    border: rgb(0, 0, 0) 10px;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 40px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
     background-color: rgb(255, 216, 110);
+    cursor: pointer;
+    transition: 0.5s;
 }
 .item-3 {
+    border: rgb(0, 0, 0) 10px;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 40px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
     background-color: rgb(0, 255, 0);
+    cursor: pointer;
+    transition: 0.5s;
 }
 .item-4 {
+    border: rgb(0, 0, 0) 10px;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 40px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
     background-color: rgb(0, 0, 255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.item-1:hover {
+    border: white 10px;
+    border-radius: 20px;
+    border-style: solid;
+    color: white;
+    font-size: 50px;
+    transform: scale(1.05);
+}
+.item-2:hover {
+    border: white 10px;
+    border-radius: 20px;
+    border-style: solid;
+    color: white;
+    font-size: 50px;
+    transform: scale(1.05);
+}
+.item-3:hover {
+    border: white 10px;
+    border-radius: 20px;
+    border-style: solid;
+    color: white;
+    font-size: 50px;
+    transform: scale(1.05);
+}
+.item-4:hover {
+    border: white 10px;
+    border-radius: 20px;
+    border-style: solid;
+    color: white;
+    font-size: 50px;
+    transform: scale(1.05);
 }
