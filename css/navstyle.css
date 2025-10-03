@@ -1,0 +1,27 @@
+header{text-align: center;}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 8rem;
+    display: flex;
+    overflow: hidden;
+    background-color: #000000;
+}
+ul li a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+ul li a:hover {
+  background: #ff0000;
+  color: #000000;
+}
+li {
+    display: inline;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
