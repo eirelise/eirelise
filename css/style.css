@@ -19,11 +19,7 @@ a:hover {
     grid-template-rows: 510px 300px;
     gap: 56px;
     margin: 56px;
-
-    
-    grid-template-areas:
-        "item-1 item-2"
-        "item-1 item-4";
+    justify-content: center;
 }
 .header {
     display: flex;
@@ -55,9 +51,45 @@ h1 {
 }
 h1:hover {
     font-size: 60px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0, 0.8);
 }
-.item-1 {
+.History {
+    border: rgb(0, 0, 0) 10px;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 40px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.History:hover {
+    border: white 10px;
+    border-radius: 20px;
+    border-style: solid;
+    transform: scale(1.05);
+}
+.Native {
+    border: rgb(0, 0, 0) 10px;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 40px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    background-image: url('../pictures/whitekiwibird.jpg'); background-repeat: no-repeat; background-size: cover;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Native:hover {
+    border: white 10px;
+    border-radius: 20px;
+    border-style: solid;
+    transform: scale(1.05);
+}
+.Explore {
     border: rgb(0, 0, 0) 10px;
     border-radius: 20px;
     border-style: solid;
@@ -69,58 +101,13 @@ h1:hover {
     cursor: pointer;
     transition: 0.5s;
 }
-.item-1:hover {
+.Explore:hover {
     border: white 10px;
     border-radius: 20px;
     border-style: solid;
-    color: white;
-    font-size: 50px;
     transform: scale(1.05);
 }
-
-.item-2 {
-    border: rgb(0, 0, 0) 10px;
-    border-radius: 20px;
-    border-style: solid;
-    font-size: 40px;
-    font-style: oblique;
-    font-family: 'Times New Roman', Times, serif;
-    color: #000;
-    background-color: rgb(255, 216, 110);
-    cursor: pointer;
-    transition: 0.5s;
-}
-.item-2:hover {
-    border: white 10px;
-    border-radius: 20px;
-    border-style: solid;
-    color: white;
-    font-size: 50px;
-    transform: scale(1.05);
-}
-
-.item-3 {
-    border: rgb(0, 0, 0) 10px;
-    border-radius: 20px;
-    border-style: solid;
-    font-size: 40px;
-    font-style: oblique;
-    font-family: 'Times New Roman', Times, serif;
-    color: #000;
-    background-color: rgb(0, 255, 0);
-    cursor: pointer;
-    transition: 0.5s;
-}
-.item-3:hover {
-    border: white 10px;
-    border-radius: 20px;
-    border-style: solid;
-    color: white;
-    font-size: 50px;
-    transform: scale(1.05);
-}
-
-.item-4 {
+.Food {
     border: rgb(0, 0, 0) 10px;
     border-radius: 20px;
     border-style: solid;
@@ -132,11 +119,9 @@ h1:hover {
     cursor: pointer;
     transition: 0.5s;
 }
-.item-4:hover {
+.Food:hover {
     border: white 10px;
     border-radius: 20px;
     border-style: solid;
-    color: white;
-    font-size: 50px;
     transform: scale(1.05);
 }
