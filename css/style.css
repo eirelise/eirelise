@@ -49,6 +49,7 @@ h1 {
     .container {
         grid-template-columns: minmax(400px, 900px);
         grid-template-rows: 300px 300px 300px 300px;
+        gap: 30px;
     }
 }
 
