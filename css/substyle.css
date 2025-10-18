@@ -36,6 +36,14 @@ p {
     font-size: 20px;
     font-family: monospace;
 }
+span {
+    color: #7ac6ff;
+    font-family: monospace;
+}
+h6 {
+    font-size: 20px;
+    font-family: monospace;
+}
 /*-------CONTENT-------*/
 .header {
     display: flex;
