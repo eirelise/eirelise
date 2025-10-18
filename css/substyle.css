@@ -55,6 +55,15 @@ nav ul{
     display: flex;
     justify-content: center;
 }
+.on-site {
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    padding: 7px;
+    border: 2px solid #2e2e2e;
+    background-color: #2e2e2e;
+    border-radius: 25px;
+}
 nav ul li a {
     margin: 10px;
     color: white;
