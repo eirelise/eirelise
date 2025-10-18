@@ -44,6 +44,23 @@ h6 {
     font-size: 20px;
     font-family: monospace;
 }
+/*------Navigation---------*/
+nav ul{
+    background-color: #313131;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+nav ul li a {
+    margin: 5px 20px;
+    color: white;
+    font-size: 20px;
+}
+nav ul li a:hover {
+    font-size: 30px;
+}
 /*-------CONTENT-------*/
 .header {
     display: flex;
