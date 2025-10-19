@@ -68,7 +68,13 @@ nav ul li a:hover {
     font-size: 30px;
     border-radius: 25px;
 }
+/*Smaller screens*/
 @media (max-width: 900px) {
+    .container {
+        grid-template-columns: minmax(300px, 900px);
+        grid-template-rows: 300px 300px 300px 300px;
+        gap: 30px;
+    }/*to make it fit smaller screens*/
     nav ul li a {
     margin: 2px;
     padding: 5px;
@@ -105,13 +111,6 @@ nav ul li a:hover {
     gap: 56px;
     margin: 56px;
     justify-content: center;
-}
-@media (max-width: 900px){
-    .container {
-        grid-template-columns: minmax(400px, 900px);
-        grid-template-rows: 300px 300px 300px 300px;
-        gap: 30px;
-    }/*to make it fit smaller screens*/
 }
 .info {
     display: wrap;
